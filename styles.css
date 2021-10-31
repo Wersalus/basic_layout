@@ -36,7 +36,7 @@ header.inner{
     right:120px;
 }
 .nav_list{
-    list-style-type: none;
+    list-style-type: none; 
 }
 .nav_list li{
     float:left;
@@ -61,15 +61,24 @@ header.inner{
     text-align: center;
 
     color: #FFFFFF;
-    list-style-type: none;
 }
-.navigation li{
-    margin: 0 200px 0 0;
+.number{
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    left: 1046px;
+    top: 745px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
-.navigation li :last-child{
-    margin-right: 0;
-}
-aboutUs{
+.about_us{
     background-color: blueviolet;
     position: absolute;
     width: 794px;
@@ -77,7 +86,8 @@ aboutUs{
     left: 563px;
     top: 960px;
 }
-.about_us{
+.historical_parks{
+    display: flex;
     width: 193px;
     height: 47px;
     left: 563px;
@@ -92,13 +102,59 @@ aboutUs{
     text-align: center;
     
     color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
 }
-.about_us li{
+.equipment{
+    display: flex;
+    width: 133px;
+    height: 47px;
+    left: 826px;
+    top: 1093px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
     text-align: center;
-    list-style-type: none;
-    margin: 0 50px 0 0;
+
+    color: #FFFFFF;
 }
-appartments{
+.fountains{
+    width: 134px;
+    height: 47px;
+    left: 1029px;
+    top: 1093px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.bike_paths{
+    width: 124px;
+    height: 47px;
+    left: 1233px;
+    top: 1093px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.appartments{
     background-color: cadetblue;
     position: absolute;
     width: 1100px;
@@ -119,7 +175,7 @@ appartments{
     line-height: 48px;
     color: #D4C17F;
 }
-feedback{
+.feedback{
     background-color: chartreuse;
     position: absolute;
     width: 1920px;
@@ -140,7 +196,21 @@ feedback{
     line-height: 48px;
     color: #D4C17F;
 }
-video{
+.lorem_ipsum{
+    width: 535px;
+    height: 114px;
+    left: 405px;
+    top: 2332px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;   
+}
+.video{
     background-color: darkblue;
     position: absolute;
     width: 719px;
@@ -148,7 +218,7 @@ video{
     left: 595px;
     top: 2626px;
 }
-maps{
+.maps{
     background-color: darkorchid;
     position: absolute;
     width: 1110px;
@@ -169,7 +239,7 @@ maps{
     line-height: 48px;
     color: #D4C17F;
 }
-info_form{
+.info_form{
     background-color: darkslateblue;
     position: absolute;
     width: 1115px;
@@ -189,7 +259,22 @@ info_form{
     font-size: 36px;
     line-height: 48px;
     color: #D4C17F;
+}
+.contact_data{
+    width: 255px;
+    height: 28px;
+    left: 400px;
+    top: 4227px;
 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+
+    text-align: center;
+
+    color: #E7E7E7;
 }
 footer{
     background-color: dimgray;
